@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sidebar {
+            width: 20rem;
+            background-color: #000;
+            height: 100vh;
+            -webkit-transition: all .4s;
+            transition: all .4s;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 101;
+        }
+        
+        .page-content {
+            width: calc(100% - 20rem);
+            -webkit-transition: all .4s;
+            transition: all .4s;
+            margin-left: auto;
+            background-color: blue
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="sidebar">sidemenu</div>
+        <div class="page-content">menu</div>
+    </div>
+</body>
+
+</html>
